@@ -1,0 +1,56 @@
+
+# Archivos auxiliares de LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.idx
+*.ind
+*.ilg
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.thm
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.tmp
+
+# Archivos PDF generados (opcional)
+# Descomenta la siguiente línea si NO quieres subir los PDF
+# *.pdf
+
+# Archivos de editores LaTeX
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.old

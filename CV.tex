@@ -1,0 +1,123 @@
+\documentclass[10pt,letterpaper]{article}
+
+% --- Configuración general ---
+\usepackage[letterpaper,margin=1.35cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{microtype}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Ajustes de secciones
+\titleformat{\section}
+  {\large\bfseries}
+  {}{0pt}{\MakeUppercase}[\vspace{-3pt}\titlerule]
+
+\titlespacing*{\section}{0pt}{8pt}{5pt}
+
+% Viñetas compactas
+\setlist[itemize]{
+  leftmargin=1.25em,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\cvheading}[4]{%
+  \begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{4.0cm}@{}}
+    \textbf{#1} & \textbf{#2}\\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}
+}
+
+\begin{document}
+
+% --- Encabezado ---
+\begin{center}
+  {\LARGE\textbf{Miguel Angel Montoya Cruz}}\\[4pt]
+  Ciudad Valles, San Luis Potosí, México
+  \enspace$\cdot$\enspace
+  \href{https://linkedin.com/in/mangelmcz}{linkedin.com/in/mangelmcz}
+  \href{mailto:miguelmontoya1015@icloud.com}{miguelmontoya1015@icloud.com}
+  \enspace$\cdot$\enspace
+  \href{https://github.com/}{GitHub}
+  \enspace$\cdot$\enspace
+  \href{https://orcid.org/}{ORCID}
+\end{center}
+
+\vspace{2pt}
+Estudiante de último semestre de Ingeniería en Sistemas Computacionales con interés en desarrollo de software y programación. Cuento con experiencia en proyectos académicos y personales utilizando diferentes tecnologías. Busco una oportunidad de residencia profesional para aplicar mis conocimientos, adquirir experiencia y contribuir al desarrollo de soluciones tecnológicas.
+
+\section*{Proyectos}
+
+\cvheading
+  {Aplicación móvil de finanzas con modelo de Inteligencia Artificial}
+  {Ciudad Valles, San Luis Potosí}
+  {Proyecto académico/personal}
+  {Feb. 2026 -- May. 2026}
+\begin{itemize}
+  \item Desarrollo del frontend móvil con Flutter y del backend con FastAPI.
+  \item Entrenamiento de modelos de regresión y clasificación usando Scikit-learn.
+  \item Manipulación y procesamiento de datos mediante las librerías de Python NumPy y Pandas.
+  \item Desarrollo de visualizaciones de datos mediante la librería de Python Matplotlib.
+  \item Implementación de la metodología ágil Kanban para la organización y seguimiento del proyecto.
+\end{itemize}
+
+\vspace{3pt}
+\cvheading
+  {Biblioteca Digital Colaborativa}
+  {Ciudad Valles, San Luis Potosí}
+  {Proyecto académico}
+  {Sep. 2025 -- Dic. 2025}
+\begin{itemize}
+  \item Desarrollo de una aplicación web utilizando React, Node.js y PostgreSQL.
+  \item Implementación de Docker para la ejecución y el despliegue de la aplicación mediante contenedores.
+  \item Desarrollo de funcionalidades de autenticación de usuarios, operaciones CRUD, votaciones, comentarios, filtros avanzados y panel de usuario.
+  \item Implementación de la metodología ágil Kanban para la gestión del proyecto.
+  \item Colaboración en la elaboración de un artículo académico sobre el proyecto.
+\end{itemize}
+
+\vspace{3pt}
+\cvheading
+  {Personal English School}
+  {Ciudad Valles, San Luis Potosí}
+  {Programador web}
+  {Oct. 2024}
+\begin{itemize}
+  \item Desarrollo y diseño de la página web de la empresa utilizando HTML, CSS y JavaScript.
+\end{itemize}
+
+\section*{Educación}
+
+\cvheading
+  {TECNM / Instituto Tecnológico de Ciudad Valles}
+  {Ciudad Valles, San Luis Potosí}
+  {Ingeniería en Sistemas Computacionales}
+  {Agosto 2022 -- Presente}
+
+\section*{Habilidades técnicas}
+\begin{itemize}
+  \item \textbf{Idiomas adicionales:} Inglés B1.
+  \item \textbf{Lenguajes:} Python, C, C++, HTML, CSS y JavaScript.
+  \item \textbf{Frameworks:} Flutter y React.
+  \item \textbf{Backend:} Node.js, FastAPI y Flask.
+  \item \textbf{Bases de datos:} SQLite y PostgreSQL.
+  \item \textbf{Herramientas:} Git, GitHub, Docker, Postman, LaTeX, SimulIDE y GNU Octave (software matemático).
+  \item \textbf{Sistemas operativos:} Windows, macOS y Linux.
+  \item \textbf{Hardware:} Programación y creación de proyectos electrónicos con Arduino Uno y microcontroladores PIC en lenguaje ensamblador.
+\end{itemize}
+
+\end{document}
